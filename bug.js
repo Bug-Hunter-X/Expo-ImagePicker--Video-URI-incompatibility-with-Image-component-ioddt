@@ -1,0 +1,1 @@
+This error occurs when using the Expo ImagePicker library and selecting a video. The issue is that the `uri` returned by ImagePicker doesn't work directly with the `Image` component, as it expects a static image URI, not a video URI.  Attempting to display this will result in a blank space or an error, depending on how you handle the image loading failure.
